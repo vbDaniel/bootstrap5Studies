@@ -100,10 +100,57 @@ Para deixar um pequeno  espaço entre os elementos usa-se gutter(gx-n) n define 
     </div>  
 ```
 
+### Style with Bootstrap
+
+- Como deixar uma tabela responsiva ao tamanho da tela com Bootstrap: 
+
+Deve-se inserir toda a tabela dentro de um <div> e inserir a classe "table-responsive":
+  
+```HTML
+   <div "table-responsive">
+      <table  class="table table=striped table-bordered table hover">
+          <thead>
+            <tr>
+              <th>Ingredients</th>
+              <th>Risk</th>
+              <th>Cal</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Açúcar </td>
+              <td>YEs</td>
+              <td>400g</td>
+            </tr>
+            <tr>
+              <td>Mamão  </td>
+              <td>No</td>
+              <td>3g</td>
+            </tr>
+          </tbody>
+      </table>
+   </div>
+```
+Assim quando temos uma tela menor aparecerá  um barra de scroll. 
+
+- Como deixar uma imagem responsiva ao tamanho da tela com Bootstrap:
+  
+  
+ Só é necessário adcionar a class="image-fluid":
+  
+ ```HTML
+    <div class="col-lg-4 col-sm-8">
+        <img src="images/bethanylogo.png" alt="Logo"  class="rounded img-fluid/>
+    </div>  
+```
+Assim a imagem irá reduzir ou almentar de acordo com o tamanho da tela.
 
 
-
-
+Aplicar Padding and margin:
+    
+  - pb-3 : Padding bottom of 3;
+                                                             
+                                                            
 
 
 
