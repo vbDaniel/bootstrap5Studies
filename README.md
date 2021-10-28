@@ -149,20 +149,16 @@ Assim a imagem irá reduzir ou almentar de acordo com o tamanho da tela.
 Aplicar Padding and margin:
     
   - pb-3 : Padding bottom of 3;
+                                                         
+  - p-3 : Padding todos os lugares em 3;
                                                              
-                                                            
+  - me-0: margin of right of 0;
+  
+  - py-5: Padding vertical of 5;                                                           
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Aplicar Border:
+```HTML                                                             
+ <span class="border">
+  ...
+ </span>                                                          
+```                   
