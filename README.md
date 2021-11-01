@@ -162,3 +162,40 @@ Aplicar Border:
   ...
  </span>                                                          
 ```                   
+
+## Componets 
+
+ Basic Components:
+   - Alert                 
+   - Button
+   - Breadcrumb                  
+   - Nav & Navbar                    
+   - Card                
+   - Progress                  
+ 
+ Basic Nav e Navbar 
+
+ ```HTML                    
+ <nav  class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark "> // Vai setar um background escuro e fixar na tela indepentdente da rolagem.
+                                                            
+          <ul class="nav nav-pills bg-light">
+              <li class= "nav-item">
+                <a class="nav-item active" href= "index.html">Home</a> // Active mostrara em um forma visual que está ativo
+              </li>   
+              <li class= "nav-item">
+                <a class="nav-item" href= "seasonalpies.html">Pies</a>
+              </li>                                                          
+              <li class= "nav-item">
+                <a class="nav-item" href= "order.html">Orders</a>
+              </li>                                                                                                               
+          </ul>
+   </nav>                     
+  ```               
+ 
+Forms creating:
+                                                                                                                                                                 
+                                                      
+                     
+                     
+                     
+                     
